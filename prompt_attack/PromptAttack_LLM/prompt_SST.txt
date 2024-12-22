@@ -1,0 +1,5 @@
+Given a sentence that is a movie review, your task is to assign a label based on its sentiment. Label 1 if the sentence is a positive review and Label 0 if the sentence is a negative review. 
+Remember to only provide the label.
+
+Sentence: [[$$S$$]]
+Label: 
