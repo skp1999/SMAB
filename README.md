@@ -1,6 +1,6 @@
 # SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation
 
-This is the official code repository for the paper SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation, accepted at **NAACL 2025**.
+This is the official code repository for the paper **SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation**, accepted at **NAACL 2025**.
 
 *Saurabh Kumar Pandey, Sachin Vashishtha, Debrup Das, Somak Aditya, Monojit Choudhury* 
 
