@@ -1,8 +1,6 @@
 # SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation
 
-This is the official code repository for the paper **SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation**, accepted at **NAACL 2025**.
-
-*Saurabh Kumar Pandey, Sachin Vashishtha, Debrup Das, Somak Aditya, Monojit Choudhury* 
+This is the official code repository for the paper **SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation**, accepted at **NAACL 2025**. 
 
 ## Abstract
 To understand the complexity of sequence classification tasks, Hahn et al. (2021) proposed sensitivity as the number of disjoint subsets of the input sequence that can each be individually changed to change the output. Though effective, calculating sensitivity at scale using this framework is costly because of exponential time complexity. Therefore, we introduce a Sensitivity-based Multi-Armed Bandit framework (SMAB), which provides a scalable approach for calculating word-level local (sentence-level) and global (aggregated) sensitivities concerning an underlying text classifier for any dataset. We establish the effectiveness of our approach through various applications. We perform a case study on CHECKLIST generated sentiment analysis dataset where we show that our algorithm indeed captures intuitively high and low-sensitive words. Through experiments on multiple tasks and languages, we show that sensitivity can serve as a proxy for accuracy in the absence of gold data. Lastly, we show that guiding perturbation prompts using sensitivity values in adversarial example generation improves attack success rate by 13.61%, whereas using sensitivity as an additional reward in adversarial paraphrase generation gives a 12.00% improvement over SOTA approaches. 
